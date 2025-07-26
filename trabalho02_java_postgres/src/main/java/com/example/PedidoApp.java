@@ -10,9 +10,9 @@ import java.sql.SQLException;
 public class PedidoApp {
 
     // Configurações do banco de dados
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432/pedidos_db";
-    private static final String USER = "postgres"; // Usuário do PostgreSQL
-    private static final String PASS = "ps123456"; // Senha do PostgreSQL
+    private static final String DB_URL = "jdbc:postgresql://localhost:5432/<NOME_BD>";
+    private static final String USER = "<USER>"; // Usuário do PostgreSQL
+    private static final String PASS = "<PASSWORD>"; // Senha do PostgreSQL
 
     private final Connection connection;
 
